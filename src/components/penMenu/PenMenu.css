@@ -1,0 +1,37 @@
+.color-input{
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 100%;
+    border: none;
+}
+
+.weight-menu{
+    position: fixed;
+    bottom: 200px;
+    -webkit-box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.2); 
+    box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.2);
+    background-color:white;
+    padding: .8rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 998;
+}
+
+.weight-menu input{
+    margin: .8rem;
+    padding: .3rem;
+    width: 8rem;
+    
+}
+
+.weight-menu button{
+    padding: 0;
+    margin: .8rem;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+}

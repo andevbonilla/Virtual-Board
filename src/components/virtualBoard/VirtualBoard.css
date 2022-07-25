@@ -1,0 +1,267 @@
+canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.float-element{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.2rem;
+    border: none;
+    cursor: grab;
+}
+
+/* figures css */
+.float-figure{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.invisible{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.2rem;
+    border: none;
+    opacity: 0;
+}
+
+.menu-container{
+    position: absolute;
+    /* margin-top: 1rem; */
+    top: -100px;
+    display: flex;
+    align-items: center;
+    padding: .8rem 1rem;
+    z-index: 997;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.2); 
+    box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.2);
+}
+
+.menu-container button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    margin: 0 .5rem;
+}
+
+.menu-container input{
+    cursor: pointer;
+    background-color: transparent;
+    margin: 0 .8rem;
+}
+
+.fonts-button{
+    color: black;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.trash-img{
+    width: 2.1rem;
+}
+
+.times-img{
+    width: 1.7rem;
+}
+
+.icon-img:last-of-type{
+    width: 1.5rem;
+}
+
+.fonts-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.2); 
+    box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.2);
+    bottom: -10.1rem;
+    padding: .8rem 1rem;
+    height: 10rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    touch-action: pinch-zoom pan-y !important;
+}
+
+.fonts-container button{
+    touch-action: pinch-zoom pan-y !important;
+}
+
+.fonts-container p{
+    color: black;
+    margin-top: 1rem;
+    font-size: 1rem;
+    touch-action: pinch-zoom pan-y !important;
+}
+
+.sizeInput{
+    padding: .3rem;
+    margin: 0 .5rem;
+    font-size: .9rem;
+}
+
+/* fonts ===================================================================================================== */
+.arial{
+    font-family: Arial;
+}
+
+.times-new-roman{
+    font-family: 'Times New Roman';
+}
+
+.edu-vic-wa{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.lobster{
+    font-family: 'Lobster', cursive;
+}
+
+.gothic{
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+.calibri{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+.anton{
+    font-family: 'Anton', sans-serif;
+}
+
+.bold{
+    color: black;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.editable-element{
+    position: absolute;
+}
+
+
+/* figures classes */
+
+.fcircle{
+    border-radius: 100%;
+    background-color: #FF8300;
+    width: 10rem;
+    height: 10rem;
+}
+
+.fsquare{
+    background-color: #FF8300;
+    width: 10rem;
+    height: 10rem;
+}
+
+.ftriangle{
+    width: 0; 
+    height: 0; 
+    border-left: 10rem solid #FF8300;
+    border-top: 5rem solid transparent;
+    border-bottom: 5rem solid transparent;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+/* figure menu styles ============================ */
+
+.figureSizeInput{
+    padding: .5rem;
+}
+
+.figureColorInput{
+    border-radius: 100%;
+    border: none;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.float{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-color-input{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+}
+
+/* rotate styles */
+
+.center-dot{
+    width: 1rem;
+    height: 1rem;
+    background-color: transparent;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.rotate-img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.rotate-div{
+    position: absolute;
+    bottom: -45px;
+}
+
+.rotate-div button{
+    color: #FF8300;
+    background-color: transparent;
+    border: none;
+    cursor: move;
+}
+
+.text-area{
+    border: none;
+    overflow: hidden;
+    resize: none;
+    cursor: default;
+    background-color: transparent;
+}
+
+.text-area:focus{
+    cursor: text;
+}
+
+.rotate-layer{
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
