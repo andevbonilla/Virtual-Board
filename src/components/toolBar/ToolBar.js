@@ -65,7 +65,7 @@ export const ToolBar = ({reset, activateEraser, activatePen, setUserAction}) => 
                 <GrPowerReset />
               </button>
 
-              <a href='https://andresbonilla.netlify.app/' target="_BLANCK"><BsFillQuestionCircleFill /></a>
+              <a href='https://andevbonilla.com' target="_BLANCK"><BsFillQuestionCircleFill /></a>
 
           </div>
 
